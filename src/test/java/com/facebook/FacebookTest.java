@@ -12,9 +12,11 @@ public class FacebookTest {
 	public void m1Test() {
 		System.out.println("hello selenium tester");
 		
-		
+		//boni garicia  this is exe file
 		WebDriverManager.chromedriver().setup();
+		//this is our browser version, always updated one from chorme/default
 		driver= new ChromeDriver();
+		//face book url
 		driver.get("https://www.facebook.com/");
 		
 		
