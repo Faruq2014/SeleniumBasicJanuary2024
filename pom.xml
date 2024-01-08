@@ -17,6 +17,7 @@
 		    <artifactId>selenium-java</artifactId>
 		    <version>4.12.1</version>
 		</dependency>
+		<!-- we might not need bonigarcia dependency any more because selenium 4.12 has working selenium manager package-->
 		<dependency>
 		    <groupId>io.github.bonigarcia</groupId>
 		    <artifactId>webdrivermanager</artifactId>

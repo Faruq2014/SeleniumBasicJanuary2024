@@ -20,7 +20,7 @@ public class HowToOpenAndCloseApp {
 	@BeforeTest
 	public void openApplication() {
 	//how do you open browser?
-	WebDriverManager.chromedriver().setup();
+	//WebDriverManager.chromedriver().setup();
 	driver= new ChromeDriver();
 	
 	driver.get("https://www.facebook.com/");
