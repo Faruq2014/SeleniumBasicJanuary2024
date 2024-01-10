@@ -11,8 +11,8 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 
-	 public WebDriver driver;
-	public String browser = "jkjjk";// instance method and it is a flag
+	public WebDriver driver;
+	public String browser = "chrome";// instance method and it is a flag
 
 	@BeforeMethod
 	public void openApplication() {
@@ -37,7 +37,7 @@ public class BaseTest {
 	@AfterMethod
 	public void closeApplication() {
 		if (driver != null) {
-			driver.quit();
+			//driver.quit();
 		}
 	}
 
