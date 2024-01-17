@@ -7,7 +7,7 @@ import com.facebook_base.BaseTest;
 
 public class DirectLocators extends BaseTest {
 
-	// @Test
+	 @Test
 	public void idLocator() {
 		driver.findElement(By.id("email")).sendKeys("llkj");
 		driver.findElement(By.xpath("//*[@id='email']"));
@@ -29,7 +29,7 @@ public class DirectLocators extends BaseTest {
 		driver.findElement(By.linkText("Sign Up")).click();
 	}
 
-	@Test
+	//@Test
 	public void partialLinkLocator() {
 		driver.findElement(By.partialLinkText("Voting")).click();
 	}
