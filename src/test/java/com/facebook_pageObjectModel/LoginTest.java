@@ -10,8 +10,8 @@ public class LoginTest extends BaseTest{
 	public void validLoginTest() {
 		System.out.println("page object model");
 		LoginPage lp = new LoginPage(driver);
-		lp.userName();
-		lp.passWord();
+		lp.userName("shirmin");
+		lp.passWord("admin123");
 		lp.loginButton();
 		
 	}
@@ -20,8 +20,8 @@ public class LoginTest extends BaseTest{
 	public void invalidLoginTest() {
 		System.out.println("page object model");
 		LoginPage lp = new LoginPage(driver);
-		lp.userName();
-		lp.passWord();
+		lp.userName("shirmin");
+		lp.passWord("jh");
 		lp.loginButton();
 		
 	}
