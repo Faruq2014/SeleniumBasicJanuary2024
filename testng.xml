@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.facebook_locators.ContaninFunction"/>
+      <class name="com.facebook_testNG.TestNgRegistration"/>
+      <class name="com.facebook_pageObjectModelWithPageFactory.GameTest"/>
+      <class name="com.facebook_findElements.FindElements"/>
+      <class name="com.facebook_login.LoginTest"/>
+      <class name="com.facebook_locators.DirectLocators"/>
+      <class name="com.facebook_browserCommand.HowToOpenAndCloseAppWithMethod"/>
+      <class name="com.facebook_browserCommand.HowToOpenAndCloseApp"/>
+      <class name="com.facebook_locators.DynamicLocators"/>
+      <class name="com.facebook_locators.IndexXpath"/>
+      <class name="com.facebook_login.LoginTestTwo"/>
+      <class name="com.facebook_webElementCommand.WebElementCommand"/>
+      <class name="com.facebook_webElementCommand.DropDown"/>
+      <class name="com.facebook_locators.XpathLocators"/>
+      <class name="com.facebook_pageObjectModelWithPageFactory.RegistrationTestWithPFI"/>
+      <class name="com.facebook_testNG.TestNgLogin"/>
+      <class name="com.facebook.SeleniumChild"/>
+      <class name="com.facebook_base.IfAndElse"/>
+      <class name="com.facebook_webElementCommand.RadioButton"/>
+      <class name="com.facebook_pageObjectModelWithPageFactory.LoginTestWithPageFactory"/>
+      <class name="com.facebook_pageObjectModel.LoginTest"/>
+      <class name="com.facebook.FacebookTest"/>
+      <class name="com.facebook_locators.CSS"/>
+      <class name="com.facebook_DynamicCoding.DynamicCoding"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Smoke Suite -->

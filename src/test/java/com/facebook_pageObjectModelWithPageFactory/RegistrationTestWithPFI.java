@@ -14,6 +14,9 @@ public class RegistrationTestWithPFI extends BaseTest{
 		rpp.mobleNumber("877989879");
 		rpp.newPassword("kjkj");
 		rpp.birthMonth("Feb");
+		rpp.birthDay("14");
+		rpp.birthYear("1980");
+		rpp.selectGender("female");
 		
 	}
 

@@ -1,0 +1,17 @@
+how do you build testNG xml file ?
+how do you build package/project level xml file
+how does xml file determine which calss should be in the xml file
+how do you run fail test cases in testng or how do you run sanity test
+how do you see testng report
+what index.html
+what is fail.xml
+what is annotations
+how they work
+what is the hirerache/order of annotation
+what is testng attributes
+what is priority
+what is the highest priority=0
+if you do not set priority how it run == alphabatical order
+what is description
+what is depndsonMehtood
+
